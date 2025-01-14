@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <title>Frontend Mentor | Manage landing page</title>
+</head>
+
+<body >
+
+
+
+
+
+  <header class="header">
+    <div class="container">
+      <nav class="navbar fw-bold mt-5">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo">
+        </div>
+        <ul class="navbar-nav flex-row gap-5 d-lg-flex d-none">
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+        </ul>
+        <div class="menu-icon d-lg-none">
+          <img src="./images/icon-hamburger.svg" alt="Menu Icon">
+        </div>
+        <div class="mobile-menu hidden bg-white d-flex flex-column">
+          <img class="close-btn" src="./images/icon-close.svg" alt="">
+          <ul class="navbar-nav flex-column gap-3">
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+          </ul>
+        </div>
+        <button class="btn-primary fw-bold d-lg-block d-none">Get Started</button>
+      </nav>
+    </div>
+
+    <div class="overlay hidden"></div>
+  </header>
+  
+  
+
+
+  <section class="hero my-5">
+    <div class="container">
+      <div class="row">
+
+
+
+        <div class="col-lg-5 d-flex flex-column align-items-start justify-content-center">
+
+
+          <div class="col-lg-7 d-flex d-lg-none m-auto">
+            <img class="img-fluid" src="images/illustration-intro.svg" alt="">
+            <img src="images/bg-tablet-pattern.svg" alt="" class="bg-tablet">
+          </div>
+
+
+
+          <h1 class="fw-bold heading text-lg-start text-center ">Bring everyone together to build better products</h1>
+          <p class="my-4 w-75 size"> Manage makes it simple for software teams to plan day-to-day
+            tasks while keeping the larger team goals in view.</p>
+          <button class="btn-primary fw-bold mt-3">Get Started</button>
+        </div>
+
+
+        <div class="col-lg-7 d-lg-flex d-none justify-content-end">
+          <img class="img-fluid" src="images/illustration-intro.svg" alt="">
+          <img src="images/bg-tablet-pattern.svg" alt="" class="bg-tablet">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="features my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <h2 class="fw-bold"> What’s different about Manage?</h2>
+          <p class="my-4 w-75"> Manage provides all the functionality your team needs, without
+            the complexity. Our software is tailor-made for modern digital
+            product teams. </p>
+          <img src="images/bg-tablet-pattern.svg" alt="" class="bg-tablet-1">
+        </div>
+
+        <div class="col-lg-7 d-flex flex-column  justify-content-end gap-2 cetner">
+          <div class="card-1 d-flex flex-column  ">
+            <div class="d-flex align-items-center gap-4 bg">
+
+              <button class="btn-primary class "> 01</button>
+              <h6 class="fw-bold">Track company-wide progress</h6>
+            </div>
+            <p class="my-2 w-75 m-auto  ps-4 width-1 class">See how your day-to-day tasks fit into the wider vision. Go from
+              tracking progress at the milestone level all the way done to the
+              smallest of details. Never lose sight of the bigger picture again.</p>
+          </div>
+
+          <div class="card-1 d-flex flex-column   ">
+            <div class="d-flex align-items-center gap-4 bg">
+
+              <button class="btn-primary class"> 02</button>
+              <h6 class="fw-bold"> Advanced built-in reports</h6>
+            </div>
+            <p class="my-2 w-75 m-auto  ps-4 width-1 class"> Set internal delivery estimates and track progress toward company
+              goals. Our customisable dashboard helps you build out the reports
+              you need to keep key stakeholders informed.</p>
+          </div>
+
+          <div class="card-1 d-flex flex-column  ">
+            <div class="d-flex align-items-center gap-4 bg">
+
+              <button class="btn-primary class"> 03</button>
+              <h6 class="fw-bold"> Everything you need in one place</h6>
+            </div>
+            <p class="my-2 w-75 m-auto  ps-4 width-1 class"> Stop jumping from one service to another to communicate, store files,
+              track tasks and share documents. Manage offers an all-in-one team
+              productivity solution.</p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="hero-1 my-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <h3 class="fw-bold text-center h3-1">What they've said</h3>
+
+        <div class="col-lg-4 mt-5">
+          <div class="card-2 d-flex flex-column align-items-center ">
+            <img src="images/9.jpg" alt="" class="img rounded-5">
+            <h6 class="fw-bold mb-3">Jonathan Doe</h6>
+            <p class="text-center"> “Manage has supercharged our team’s workflow. The ability to maintain
+              visibility on larger milestones at all times keeps everyone motivated.”</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-5">
+          <div class="card-2 d-flex flex-column align-items-center ">
+            <img src="images/avatar-richard.png" alt="" class="img">
+            <h6 class="fw-bold mb-3">Richard Doe</h6>
+            <p class="text-center">   “We have been able to cancel so many other subscriptions since using 
+              Manage. There is no more cross-channel confusion and everyone is much 
+              more focused.”</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 mt-5">
+          <div class="card-2 d-flex flex-column align-items-center ">
+            <img src="images/89.jpg" alt="" class="img  rounded-5">
+            <h6 class="fw-bold mb-3">Ali Doe</h6>
+            <p class="text-center">   “Their software allows us to track, manage and collaborate on our projects 
+              from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+          </div>
+        </div>
+
+
+      </div>
+      <button class="btn-primary fw-bold  mt-5 d-flex m-auto">Get Started</button>
+  </section>
+
+
+  <section class="foot mt-5">
+    <div class="container center-1">
+      <div class="row">
+        <div class="col-lg-6 d-flex ">
+          <h3 class="fw-bold width "> Simplify how <br class="d-lg-none d-block"> your team works today.</h3>
+        </div>
+        <div class="col-lg-6 d-flex  flex-column">
+          <button class="btn-primary fw-bold align-self-end bg-white text-color">Get Started</button>
+        </div>
+      </div>
+    </div>
+
+    <img src="images/bg-tablet-pattern.svg" alt="" class="bg-tablet-3">
+    <img src="images/bg-tablet-pattern.svg" alt="" class="bg-tablet-4">
+  </section>
+
+
+
+
+
+  <footer class="footer py-5 ">
+    <div class="container">
+      <div class="row">
+
+        
+
+          <div class="d-lg-none d-flex align-self-center gap-2 mb-5">
+            
+            <input type="text" placeholder="Updates in your inbox..." class="input">
+            <button class="btn-primary fw-bold">Go</button>
+          </div>
+        
+
+          <div class="col-4 d-lg-none d-block ms-auto ">
+            <p class="fw-bold text-start"> Home</p>
+            <p class="fw-bold text-start"> Pricing</p>
+            <p class="fw-bold text-start"> Product</p>
+            <p class="fw-bold text-start
+            text-start"> About Us</p>
+  
+          </div>
+  
+
+          <div class="col-4 d-lg-none d-block me-auto">
+            <p class="fw-bold text-start"> Careers</p>
+            <p class="fw-bold text-start"> Community</p>
+            <p class="fw-bold text-start"> Privacy Policy</p>
+          </div>
+
+
+          <div class="col-lg-2 d-lg-none d-flex flex-column align-items-center justify-content-center gap-5">
+            <div class="icons d-flex  gap-5 mt-5 ">
+              <img src="images/icon-facebook.svg" alt="">
+              <img src="images/icon-youtube.svg" alt="">
+              <img src="images/icon-twitter.svg" alt="">
+              <img src="images/icon-pinterest.svg" alt="">
+              <img src="images/icon-instagram.svg" alt="">
+            </div>
+            <div>
+              <img src="images/logo copy.svg" alt="">
+            </div>
+          </div>
+
+        <div class="col-lg-2 d-lg-flex d-none flex-column gap-5">
+          <img src="images/logo copy.svg" alt="">
+          <div class="icons d-flex gap-3 mt-5">
+            <img src="images/icon-facebook.svg" alt="">
+            <img src="images/icon-youtube.svg" alt="">
+            <img src="images/icon-twitter.svg" alt="">
+            <img src="images/icon-pinterest.svg" alt="">
+            <img src="images/icon-instagram.svg" alt="">
+          </div>
+        </div>
+
+        <div class="col-1"></div>
+
+        <div class="col-lg-2 d-lg-block d-none">
+          <p class="fw-bold"> Home</p>
+          <p class="fw-bold"> Pricing</p>
+          <p class="fw-bold"> Product</p>
+          <p class="fw-bold"> About Us</p>
+
+        </div>
+
+        <div class="col-1"></div>
+
+        <div class="col-lg-2 d-lg-block d-none">
+          <p class="fw-bold"> Careers</p>
+          <p class="fw-bold"> Community</p>
+          <p class="fw-bold"> Privacy Policy</p>
+        </div>
+
+        <div class="col-1"></div>
+
+        <div class="col-lg-3 d-flex flex-column align-self-start gap-2">
+
+          <div class="d-lg-flex d-none align-self-start gap-2">
+
+            <input type="text" placeholder="Updates in your inbox..." class="input">
+            <button class="btn-primary fw-bold">Go</button>
+          </div>
+
+
+          <p class="fw-bold text-secondary mt-5"> Copyright 2020. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Pricing
+  Product
+  About Us
+  Careers
+  Community
+
+  Get Started
+
+  Bring everyone together to build better products.
+
+  Manage makes it simple for software teams to plan day-to-day 
+  tasks while keeping the larger team goals in view.
+
+  Get Started
+
+  What’s different about Manage?
+
+  Manage provides all the functionality your team needs, without 
+  the complexity. Our software is tailor-made for modern digital 
+  product teams. 
+
+  01
+  Track company-wide progress
+  See how your day-to-day tasks fit into the wider vision. Go from 
+  tracking progress at the milestone level all the way done to the 
+  smallest of details. Never lose sight of the bigger picture again.
+
+  02
+  Advanced built-in reports
+  Set internal delivery estimates and track progress toward company 
+  goals. Our customisable dashboard helps you build out the reports 
+  you need to keep key stakeholders informed.
+
+  03
+  Everything you need in one place
+  Stop jumping from one service to another to communicate, store files, 
+  track tasks and share documents. Manage offers an all-in-one team 
+  productivity solution.
+
+  What they’ve said
+
+  Anisha Li
+  “Manage has supercharged our team’s workflow. The ability to maintain 
+  visibility on larger milestones at all times keeps everyone motivated.”
+
+  Ali Bravo
+  “We have been able to cancel so many other subscriptions since using 
+  Manage. There is no more cross-channel confusion and everyone is much 
+  more focused.”
+
+  Richard Watts
+  “Manage allows us to provide structure and process. It keeps us organized 
+  and focused. I can’t stop recommending them to everyone I talk to!”
+
+  Shanai Gough
+  “Their software allows us to track, manage and collaborate on our projects 
+  from anywhere. It keeps the whole team in-sync without being intrusive.”
+
+  Get Started
+
+  Simplify how your team works today.
+  Get Started
+
+  Home
+  Pricing
+  Products
+  About Us
+  Careers
+  Community
+  Privacy Policy
+
+  Updates in your inbox…
+  Go
+
+  Copyright 2020. All Rights Reserved -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+        
+    <script src="js/script.js" ></script>
+
+</body>
+
+</html>
